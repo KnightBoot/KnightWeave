@@ -1,0 +1,3 @@
+rootProject.name='knightweave'
+include ':app'
+include ':weave-interface'
