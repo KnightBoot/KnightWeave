@@ -1,5 +1,5 @@
 
-package com.knightboot.weaveplugin;
+package com.knightboot.weaverplugin;
 
 import com.google.common.base.Strings;
 import com.knightboot.weaver.internal.log.Log;

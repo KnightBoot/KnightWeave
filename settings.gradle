@@ -1,4 +1,4 @@
 rootProject.name='knightweave'
 include ':app'
-include ':weave-interface'
-include ':weave-plugin'
+include ':weaver-interface'
+include ':weaver-plugin'

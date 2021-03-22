@@ -1,4 +1,4 @@
-package com.knightboot.weaveplugin.transform;
+package com.knightboot.weaverplugin.transform;
 
 import com.android.build.api.transform.QualifiedContent;
 import com.android.build.api.transform.Transform;
@@ -7,8 +7,8 @@ import com.android.build.api.transform.TransformInvocation;
 import com.android.build.gradle.internal.pipeline.TransformManager;
 import com.google.common.base.Strings;
 import com.google.common.io.Files;
-import com.knightboot.weaveplugin.WeaveExtension;
-import com.knightboot.weaveplugin.internal.GlobalContext;
+import com.knightboot.weaverplugin.WeaveExtension;
+import com.knightboot.weaverplugin.internal.GlobalContext;
 import com.knightboot.weaver.internal.log.Impl.FileLoggerImpl;
 import com.knightboot.weaver.internal.log.Log;
 

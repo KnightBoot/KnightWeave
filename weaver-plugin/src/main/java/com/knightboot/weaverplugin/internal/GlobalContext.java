@@ -1,4 +1,4 @@
-package com.knightboot.weaveplugin.internal;
+package com.knightboot.weaverplugin.internal;
 
 import org.gradle.api.Project;
 
