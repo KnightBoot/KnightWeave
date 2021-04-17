@@ -53,7 +53,14 @@ public class WeaveTransform extends Transform {
 
         Log.i("start time: " + System.currentTimeMillis());
 
+        // collect the information this compile need
+        TransformContext context = new TransformContext(transformInvocation, global);
+
+        Log.i("after android plugin, incremental: " + context.isIncremental());
+        Log.i("now: " + System.currentTimeMillis());
+
     }
+
 
     @Override
     public boolean isIncremental() {
