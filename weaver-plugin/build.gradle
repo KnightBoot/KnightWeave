@@ -3,6 +3,7 @@ apply plugin: 'kotlin'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(path: ':weaver-interface')
     compileOnly gradleApi()
     compileOnly "com.android.tools.build:gradle:$gradle_version"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
